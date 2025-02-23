@@ -13,6 +13,9 @@ import {
   // nodejs,
   // mongodb,
   git,
+  // mysql,
+  dotnet,
+  // azure,
   // figma,
   // docker,
   // meta,
@@ -50,7 +53,8 @@ import {
   Simploitel,
   portfolio,
   POS,
-  AdvancedReact
+  AdvancedReact,
+  az_900
 } from "../assets";
 
 
@@ -61,7 +65,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work & Education",
   },
   {
     id: "certifications",
@@ -75,24 +79,32 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
-    icon: web,
-  },
-  {
     title: "Front-End Developer",
     icon: mobile,
   },
   {
-    title: "JAVA Developer",
+    title: "React Developer",
+    icon: web,
+  },
+  {
+    title: ".NET Developer",
     icon: backend,
   },
   {
-    title: "Web Designer | Developer",
+    title: "Azure & Devops",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "DOT NET",
+    icon: dotnet,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -109,10 +121,7 @@ const technologies = [
     name: "Bootstrap",
     icon: bootstrap,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+  
   {
     name: "Core Java",
     icon: java,
@@ -125,14 +134,6 @@ const technologies = [
     name: "PHP",
     icon: php,
   },
-  {
-    name: "Oracle",
-    icon: oracle,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -149,18 +150,13 @@ const technologies = [
     name: "jQuery",
     icon: jQuery,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  
+
 ];
 
 
 const certi = [
+  
   {
     name: "Introduction to Front-End Development",
     company_name: "META",
@@ -170,6 +166,11 @@ const certi = [
     name: "React Basics - 2023",
     company_name: "META",
     source_code_link: React,
+  },
+  {
+    name: "AZ-900 Azure Fundamentals",
+    company_name: "Azure",
+    source_code_link: az_900,
   },
   {
     name: "Programming with JavaScript - 2023",
@@ -230,8 +231,7 @@ const experiences = [
       "Opportunity to leverage my expertise in React.js and front-end technologies, while expanding my skillset with .NET and Microsoft DevOps tools",
       "With a passion for innovative software solutions and a strong foundation in front-end development, I am committed to delivering efficient, reliable, and user-centric products that help clients achieve their financial objectives",
     ],
-  }
-  ,
+  },
   {
     title: "Front-End Developer Intern",
     company_name: "Qantler TEchnologies,Trichy.",

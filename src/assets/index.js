@@ -42,6 +42,9 @@ import bootstrap from "./tech/bootstrap.png"
 import php from "./tech/php.png"
 import oracle from "./tech/oracle.png"
 import java from "./tech/java.png"
+// import azure from "./tech/azure.png"
+import dotnet from "./tech/dotnet.png"
+// import mysql from "./tech/mysql.png"
 
 import pascaline from "./pascaline.png"
 import arun_pholio from "./arun_pholio.png"
@@ -61,6 +64,7 @@ import React from "./certifications/React.pdf"
 import Skyscanner from "./certifications/Skyscanner.pdf"
 import Version_Control from "./certifications/Version-Control.pdf"
 import AdvancedReact from "./certifications/AdvancedReact.pdf"
+import az_900 from "./certifications/az-900.pdf"
 
 
 export {
@@ -119,5 +123,9 @@ export {
   portfolio,
   POS,
   AdvancedReact,
-  Accenture
+  az_900,
+  Accenture,
+  // mysql,
+  dotnet,
+  // azure,
 };
