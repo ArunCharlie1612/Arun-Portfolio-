@@ -60,8 +60,6 @@ import {
   G_ACE,
   G_CDL,
   G_GAIL,
-  InsightCV,
-  Pictionary
 } from "../assets";
 
 
@@ -327,32 +325,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "Insight CV",
-    description:
-      "An Amazing AI CV Analyser which Analyses your CV and gives you the feedback to improve it. A Portfolio created with the technologies like React.js,TypeScript, Tailwind, JavaScript. ",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailWind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Puter.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-    ],
-    image: InsightCV,
-    source_code_link: "https://github.com/ArunCharlie1612/InsightCV",
-    project_link: "https://insightcv.netlify.app/"
-  },
-  {
     name: "POS",
     description:
       "The POS (Point of Sale) is the application with HTML,CSS,Bootstrap,jQuery and pure JS. I have done this in react also.",
@@ -380,65 +352,36 @@ const projects = [
     ],
     image: POS,
     source_code_link: "https://github.com/",
-    project_link: "https://github.com/ArunCharlie1612/POS-React"
   },
   {
-    name: "Pictionary",
+    name: "React Portfolio",
     description:
-      "A simple React game application for a team for their relaxation. Three teams are playing this game. One person from the team will draw the picture and other team members will guess it.",
-
+      "A Portfolio created with the technologies like React.js, HTML, CSS, Tailwind, jQuery, JavaScript. I have done this in my college days.",
     tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailWind",
+        color: "pink-text-gradient",
+      },
       {
         name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "HTML",
+        name: "jQuery",
         color: "green-text-gradient",
       },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "blue-text-gradient",
-      }
     ],
-    image: Pictionary,
-    source_code_link: "https://github.com/ArunCharlie1612",
-    project_link: "https://pictionaryyaruncharlie.netlify.app/"
+    image: portfolio,
+    source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "React Portfolio",
-  //   description:
-  //     "A Portfolio created with the technologies like React.js, HTML, CSS, Tailwind, jQuery, JavaScript. I have done this in my college days.",
-  //   tags: [
-  //     {
-  //       name: "HTML",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "TailWind",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "React.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "jQuery",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: portfolio,
-  //   source_code_link: "https://github.com/",
-  //   project_link: "https://insightcv.netlify.app/"
-  // },
   {
     name: "Simploitel",
     description:
@@ -454,8 +397,7 @@ const projects = [
       },
     ],
     image: Simploitel,
-    source_code_link: "https://github.com/ArunCharlie1612/Simplotel--Task",
-    project_link: "https://aruncharlie1612.github.io/Simplotel--Task/"
+    source_code_link: "https://github.com/",
   },
   {
     name: "Charlie Dewi",
@@ -476,8 +418,7 @@ const projects = [
       },
     ],
     image: charlie_Dewi,
-    source_code_link: "https://github.com/ArunCharlie1612/Charlie_Dewi",
-    project_link: "https://aruncharlie1612.github.io/Charlie_Dewi/"
+    source_code_link: "https://github.com/",
   },
   {
     name: "Pascaline ",
@@ -502,31 +443,29 @@ const projects = [
       },
     ],
     image: pascaline,
-    source_code_link: "https://github.com/ArunCharlie1612/Pascaline",
-    project_link: "https://aruncharlie1612.github.io/Pascaline/"
+    source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Arun Photofolio",
-  //   description:
-  //     "A photography web application is a software program or online service that allows photographers to showcase and share their photos with others on the internet.",
-  //   tags: [
-  //     {
-  //       name: "HTML",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "CSS",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Bootstrap",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: arun_pholio,
-  //   source_code_link: "https://github.com/",
-  //   project_link: "https://aruncharlie1612.github.io/Arun_photofolio/"
-  // },
+  {
+    name: "Arun Photofolio",
+    description:
+      "A photography web application is a software program or online service that allows photographers to showcase and share their photos with others on the internet.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: arun_pholio,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 export { services, technologies, certi, experiences, projects };

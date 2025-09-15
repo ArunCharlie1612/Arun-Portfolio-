@@ -53,6 +53,8 @@ import pdf_logo from "./certifications/pdf_logo.png"
 import portfolio from "./Portfolio.png"
 import Simploitel from "./Simploitel_task.png"
 import POS from "./POS.png"
+import InsightCV from "./InsightCV.png"
+import Pictionary from "./Pictionary.png"
 
 import Best_Intern from "./certifications/Best_Intern.pdf"
 import Indepth from "./certifications/Indepth.pdf"
@@ -65,10 +67,21 @@ import Skyscanner from "./certifications/Skyscanner.pdf"
 import Version_Control from "./certifications/Version-Control.pdf"
 import AdvancedReact from "./certifications/AdvancedReact.pdf"
 import az_900 from "./certifications/az-900.pdf"
+import ai_900 from "./certifications/ai_900.pdf"
+import az_204 from "./certifications/az-204.pdf"
+import G_ACE from "./certifications/CDL.pdf"
+import G_CDL from "./certifications/CDL.pdf"
+import G_GAIL from "./certifications/GAIL.pdf"
+
 
 
 export {
   logo,
+  ai_900,
+  az_204,
+  G_ACE,
+  G_CDL,
+  G_GAIL,
   backend,
   creator,
   mobile,
@@ -128,4 +141,6 @@ export {
   // mysql,
   dotnet,
   // azure,
+  InsightCV,
+  Pictionary,
 };
