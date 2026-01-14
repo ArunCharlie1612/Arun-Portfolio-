@@ -255,10 +255,10 @@ const experiences = [
     iconBg: "#f2f2f2",
     date: "Feb 2024 - Present",
     points: [
-      "Delivered and handled 11+ applications (incl. 2 legacy Windows apps) using React.js, C#, and Azure,improving system stability and feature scalability.",
-      "Engineered full-stack modules with App Services, Function Apps, Key Vault, and SQL DB, achieving 99% SLA adherence in production issue resolution",
-      "Reduced deployment time by 20% via automation and knowledge sharing; led a 3-member Agile team, receiving client appreciation",
-      "Optimized RBAC, App Registrations, and Service Principals and CI/CD pipleine integration.",
+      "Contributed and handled 11+ applications using React.js, C#, and Azure, improving system stability and feature scalability.",
+      "Engineered full-stack modules with App Services, Function Apps, Key Vault, and SQL DB, achieving 99% SLA adherence in production issue resolutionTranslated Figma mockups into pixel-perfect web components with responsive design",
+      "Integrated and consumed RESTful APIs efficiently; improved UI load performance by optimizing API calls and DOM rendering, and achieved 99% SLA adherence in production issue resolution.",
+      "Reduced deployment time by 20% via automation and knowledge sharing; led a 3-member Agile team, receiving client(Huge Asset management company) appreciation.",
     ],
   },
   {
@@ -268,8 +268,8 @@ const experiences = [
     iconBg: "#f2f2f2",
     date: "May 2023 - Aug 2023",
     points: [
-      "Developed responsive UIs with React.js, Redux, and modern packages, ensuring 100% device compatibility and fast load times with good SEO",
-      "Integrated Swagger-based REST APIs with robust state management, boosting UX and reducing API failure rates.",
+      "Developed responsive UIs with React.js, Redux, and modern packages, ensuring 100% devicecompatibility and fast load times with good SEO.",
+      "Integrated Swagger-based REST APIs with robust state management, boosting UX and reducing APIfailure rates. Used Webpack to optimize the build process, ensuring fast load times and minimal page refreshes",
       "Improved UI reusability and modularity, cutting future dev time by 30% under Agile delivery cycles."
     ],
   },

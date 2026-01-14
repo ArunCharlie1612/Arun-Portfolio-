@@ -30,6 +30,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
     setLoading(true);
+    //If they are empty, alert and return
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields.");
+      setLoading(false);
+      return;
+    }
+    const mailMessage = `Hey Arun, you got a new message from ${form.name} (${form.email}): ${form.message}`;
 
     // Make sure the EmailJS service details are correctly placed here
     emailjs
@@ -41,7 +48,7 @@ const Contact = () => {
           to_name: "Arun S U",
           from_email: form.email,
           to_email: "suarun2002@gmail.com", // Replace with your email
-          message: form.message,
+          message: mailMessage,
         },
         "-ahnvR6n6U2gfgAJm" // Replace with your user ID
       )

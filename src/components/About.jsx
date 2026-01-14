@@ -49,10 +49,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      I'm a Software Developer with experience in Front-End Development and little bit in Core Java.
-        I'm a Quick Learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions 
-        that solve real-world problems. Let's work together to bring your ideas to life!..
-  
+        I’m a Front-End Developer who enjoys building clean, responsive, and user-focused web experiences. I work mainly with React.js, and I also have hands-on experience with .NET and Azure, giving me a solid full-stack understanding. I’m a quick learner who adapts fast, enjoys solving real-world problems, and believes good UI is where logic meets simplicity. I like writing code that’s not just functional, but scalable and easy to maintain
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
